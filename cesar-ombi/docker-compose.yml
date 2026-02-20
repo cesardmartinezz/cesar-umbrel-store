@@ -3,8 +3,8 @@ version: '3.7'
 services:
   app_proxy:
     environment:
-      APP_HOST: ombi_server_1
-      APP_PORT: 3579
+      APP_HOST: cesar-ombi_web_1
+      APP_PORT: 5000
 
   server:
     image: linuxserver/ombi:version-v4.53.4

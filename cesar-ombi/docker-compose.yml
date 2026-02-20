@@ -15,5 +15,3 @@ services:
       TZ: America/Los_Angeles
       PUID: "1000"
       PGID: "1000"
-    user: "1000:1000"
-    init: true

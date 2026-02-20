@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: server
+      APP_HOST: cesar-ombi_server_1
       APP_PORT: 3579
 
   server:

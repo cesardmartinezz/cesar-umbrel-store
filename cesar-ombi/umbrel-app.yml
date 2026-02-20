@@ -4,7 +4,7 @@ name: Ombi
 tagline: Want a movie? Just ask.
 icon: https://raw.githubusercontent.com/cesardmartinezz/cesar-umbrel-store/master/cesar-ombi/metadata/icon.svg
 category: Media
-version: "4.53.4"
+version: 4.53.4
 port: 3579
 description: >
   Ombi is a self-hosted web application that automatically gives your shared 

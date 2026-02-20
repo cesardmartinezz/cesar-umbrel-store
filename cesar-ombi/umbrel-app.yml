@@ -1,4 +1,5 @@
 manifestVersion: 1
+
 id: cesar-ombi
 name: Ombi
 tagline: Want a movie? Just ask.
@@ -6,9 +7,11 @@ icon: https://raw.githubusercontent.com/cesardmartinezz/cesar-umbrel-store/maste
 category: Media
 version: "4.53.4"
 port: 3579
+
 description: >-
   Ombi is a self-hosted web application that automatically gives your shared Plex/Emby/Jellyfin users
   the ability to request content by themselves.
+
 developer: Ombi
 website: https://ombi.io/
 submitter: Cesar Martinez

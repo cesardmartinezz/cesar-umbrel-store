@@ -13,10 +13,7 @@ services:
       - ${APP_DATA_DIR}/data/config:/config
     environment:
       TZ: America/Los_Angeles
-      # Optional; Umbrel already runs containers as 1000:1000 via `user` below.
       PUID: "1000"
       PGID: "1000"
-      # Optional if you ever want Ombi under a subpath (usually leave empty on Umbrel):
-      # BASE_URL: /ombi
     user: "1000:1000"
     init: true

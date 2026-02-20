@@ -1,16 +1,22 @@
-version: '3.7'
+version: "3.7"
 
 services:
   app_proxy:
     environment:
-      APP_HOST: cesar-ombi_web_1
-      APP_PORT: 5000
+      APP_HOST: cesar-ombi_server_1
+      APP_PORT: 3579
 
   server:
-    image: linuxserver/ombi:version-v4.53.4
-    container_name: ombi_server_1
+    image: lscr.io/linuxserver/ombi:version-v4.53.4
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
+    environment:
+      TZ: America/Los_Angeles
+      # Optional; Umbrel already runs containers as 1000:1000 via `user` below.
+      PUID: "1000"
+      PGID: "1000"
+      # Optional if you ever want Ombi under a subpath (usually leave empty on Umbrel):
+      # BASE_URL: /ombi
     user: "1000:1000"
     init: true

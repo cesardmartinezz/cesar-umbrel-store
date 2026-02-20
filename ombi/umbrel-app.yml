@@ -1,0 +1,17 @@
+manifestVersion: 1
+id: ombi
+name: Ombi
+tagline: Want a movie? Just ask.
+icon: https://raw.githubusercontent.com/cesardmartinezz/cesar-umbrel-store/master/ombi/metadata/icon.svg
+category: Media
+version: "4.53.4"
+port: 3579
+description: >
+  Ombi is a self-hosted web application that automatically gives your shared 
+  Plex or Emby users the ability to request content by themselves!
+developer: Ombi
+website: https://ombi.io/
+submitter: Cesar Martinez
+submission: https://github.com/cesardmartinezz/cesar-umbrel-store
+repo: https://github.com/cesardmartinezz/cesar-umbrel-store
+support: https://github.com/tidusjar/Ombi/issues
